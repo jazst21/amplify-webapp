@@ -12,7 +12,8 @@ exports.modules = {
 /* harmony export */ });
 function getStrapiURL(path = "") {
   return `${process.env.NEXT_PUBLIC_STRAPI_API_URL || // "https://197g8eae3j.execute-api.eu-west-1.amazonaws.com"
-  "https://dt4m920die.execute-api.us-east-1.amazonaws.com"}${path}`;
+  // "https://dt4m920die.execute-api.us-east-1.amazonaws.com"
+  "https://api.netpay.link"}${path}`;
 } // Helper to make GET requests to Strapi
 
 async function fetchAPI(path) {
